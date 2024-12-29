@@ -1,0 +1,30 @@
+ss:['16', '24', '25', '26', '27', '28', '29', '30', '31']
+fun: 1.2791677384664493
+     jac: array([ 0.02766772, -0.03407168,  0.04753961])
+ message: 'Optimization terminated successfully'
+    nfev: 64
+     nit: 13
+    njev: 13
+  status: 0
+ success: True
+       x: array([127.5760564 ,  22.83186056,  40.02778904])
+
+    fun: 1.2763503635955011
+     jac: array([ 0.03548475, -0.05027734,  0.01992944])
+ message: 'Optimization terminated successfully'
+    nfev: 34
+     nit: 8
+    njev: 8
+  status: 0
+ success: True
+       x: array([129.85785712,  18.06112177,  31.84666573])
+
+    fun: 1.2783328370943556
+     jac: array([ 0.03292626, -0.04291925,  0.03549129])
+ message: 'Optimization terminated successfully'
+    nfev: 32
+     nit: 8
+    njev: 8
+  status: 0
+ success: True
+       x: array([129.12209462,  20.22190224,  36.4594295 ])

@@ -1,0 +1,25 @@
+\UseRawInputEncoding
+\documentclass[UTF8]{ctexart}
+\usepackage[ruled]{algorithm2e}
+\pagestyle{empty}
+\begin{document}
+\begin{algorithm}[H]
+\caption{direction modify algorithm}%算法名字
+\LinesNumbered %要求显示行号
+\KwIn{input parameters b，index}%输入参数
+\KwOut{output err，b1}%输出
+Calculate new direction satisfy hard constrains %\;用于换行
+\
+find the original direction  = b[id]\;
+find the nearest vertices BN{bn1,bn2,..} next to b0,BN = argmin(dist(b,b0))\; 
+
+itsflat=0\;
+
+\ForEach{b in Bn}{
+    check intsflag\;
+　　\If{itsflag(i) == 0}{
+　　　　BS = subdivide(bni)\; 
+       d_new = argmin(err(BS))\; 
+　　}
+}
+\end{algorithm}

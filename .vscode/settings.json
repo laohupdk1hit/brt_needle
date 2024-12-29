@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": "E:\\Program Files\\Slicer 5.2.2\\bin\\SlicerPython",
+    "python.autoComplete.extraPaths": [
+        "E:\\Program Files\\Slicer 5.2.2\\",
+        "E:\\Program Files\\Slicer 5.2.2\\lib\\Python",
+        "E:\\Program Files\\Slicer 5.2.2\\lib\\QtPlugins",
+        "E:\\Program Files\\Slicer 5.2.2\\lib\\Slicer-5.2",
+        "E:\\Program Files\\Slicer 5.2.2\\bin",
+        "E:\\Program Files\\Slicer 5.2.2\\lib\\Python\\Scripts",
+        "E:\\Program Files\\Slicer 5.2.2\\slicerscripts\\Sphere",
+    ],
+    "python.analysis.extraPaths": [
+        "E:\\Program Files\\Slicer 5.2.2\\",
+        "E:\\Program Files\\Slicer 5.2.2\\lib\\Python",
+        "E:\\Program Files\\Slicer 5.2.2\\lib\\QtPlugins",
+        "E:\\Program Files\\Slicer 5.2.2\\lib\\Slicer-4.11",
+        "E:\\Program Files\\Slicer 5.2.2\\bin",
+        "E:\\Program Files\\Slicer 5.2.2\\lib\\Python\\Scripts",
+        "E:\\Program Files\\Slicer 5.2.2\\slicerscripts\\Sphere",
+    ],
+}

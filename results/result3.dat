@@ -1,0 +1,182 @@
+'''
+{0, 65, 66, 3, 67, 5, 6, 7, 68, 69, 70, 71, 72, 73, 74, 78, 79, 31}
+[[ 0  5  9 10 15 16 17 24 25 26]]
+[0, 10, 5, 15]
+ss:['16', '24', '25', '26', '27', '28', '29', '30', '31']
+ fun: 0.3469700159418469
+     jac: array([ 0.01889092, -0.0386797 , -0.0476339 ])
+ message: 'Optimization terminated successfully'
+    nfev: 300
+     nit: 38
+    njev: 36
+  status: 0
+ success: True
+       x: array([119.17746822,  28.61161962,  23.13609014])
+ 对了'''
+'''     fun: 0.3499908969619257
+     jac: array([ 0.0236404 , -0.0418115 , -0.04294993])
+ message: 'Optimization terminated successfully'
+    nfev: 31
+     nit: 6
+    njev: 6
+  status: 0
+ success: True
+       x: array([119.53687275,  28.36570944,  23.45677226])'''
+'''fun: 0.30974647380995246
+     jac: array([-0.00902334, -0.01521993, -0.06026553])
+ message: 'Optimization terminated successfully'
+    nfev: 35
+     nit: 7
+    njev: 7
+  status: 0
+ success: True
+       x: array([117.19892791,  30.40707883,  22.69200007])'''
+'''ss:['16', '24', '25', '26', '27', '28', '29', '30', '31']
+     fun: 0.10783993965703285
+     jac: array([ 0.0027584 , -0.01832908, -0.04786716])
+ message: 'Iteration limit reached'
+    nfev: 752
+     nit: 100
+    njev: 93
+  status: 9
+ success: False
+       x: array([117.95109253,  30.92439145,  26.11778131])
+       错的,cons2'''
+
+'''fun: 1.1157551317083059
+     jac: array([ 0.03357945, -0.05496083, -0.00937796])
+ message: 'Optimization terminated successfully'
+    nfev: 266
+     nit: 35
+    njev: 34
+  status: 0
+ success: True
+       x: array([127.47450691,  18.55619126,  23.69383912])'''
+''' fun: 0.31021946762247127
+     jac: array([-0.01055928, -0.0137842 , -0.06033715])
+ message: 'Optimization terminated successfully'
+    nfev: 57
+     nit: 12
+    njev: 12
+  status: 0
+ success: True
+       x: array([117.10004117,  30.49663366,  22.67867574])'''
+'''fun: 0.39183425995020443
+     jac: array([-0.01323447, -0.01302396, -0.06089189])
+ message: 'Optimization terminated successfully'
+    nfev: 34
+     nit: 7
+    njev: 7
+  status: 0
+ success: True
+       x: array([116.70536848,  30.36744596,  21.43972535])
+'''
+''''fun: 0.39154333427555765
+     jac: array([ 0.02882119, -0.04550138, -0.0363344 ])
+ message: 'Optimization terminated successfully'
+    nfev: 291
+     nit: 37
+    njev: 34
+  status: 0
+ success: True
+       x: array([120.20455536,  27.7070851 ,  23.58085002])'''
+''' fun: 1.291963576071901
+     jac: array([ 0.03524454, -0.05276479,  0.01221888])
+ message: 'Optimization terminated successfully'
+    nfev: 308
+     nit: 38
+    njev: 34
+  status: 0
+ success: True
+       x: array([129.98100141,  17.14355842,  29.60155488])'''
+'''' fun: 0.3314911519048987
+     jac: array([ 0.01765189, -0.03752753, -0.04871531])
+ message: 'Optimization terminated successfully'
+    nfev: 123
+     nit: 29
+    njev: 29
+  status: 0
+ success: True
+       x: array([119.01894717,  28.81509464,  23.23625072])'''
+''' fun: 0.10784025745383083
+     jac: array([ 0.00276355, -0.01833345, -0.04786599])
+ message: 'Iteration limit reached'
+    nfev: 883
+     nit: 100
+    njev: 96
+  status: 9
+ success: False
+       x: array([117.95111668,  30.924302  ,  26.11781032])'''
+'''fun: 0.7524599333057905
+     jac: array([-0.00872838, -0.02402081, -0.06002276])
+ message: 'Optimization terminated successfully'
+    nfev: 43
+     nit: 9
+    njev: 9
+  status: 0
+ success: True
+       x: array([116.71660129,  27.88511029,  16.30900276])'''
+''' fun: 0.3190392020643293
+     jac: array([-0.0116782 , -0.01292152, -0.06043201])
+ message: 'Optimization terminated successfully'
+    nfev: 277
+     nit: 34
+    njev: 31
+  status: 0
+ success: True
+       x: array([117.0077506 ,  30.53063103,  22.54211327])'''
+''' fun: 0.428006876962554
+     jac: array([ 0.03277616, -0.0479577 , -0.02987033])
+ message: 'Optimization terminated successfully'
+    nfev: 76
+     nit: 14
+    njev: 14
+  status: 0
+ success: True
+       x: array([120.81972024,  27.14548113,  23.84848969])'''
+''' fun: 0.6099036170302051
+     jac: array([ 0.02326613, -0.04573943, -0.04065488])
+ message: 'Optimization terminated successfully'
+    nfev: 51
+     nit: 9
+    njev: 9
+  status: 0
+ success: True
+       x: array([121.11094558,  25.59865715,  21.04181364])'''
+##########################################缩小求解空间，是否能规避非凸性##############################################
+''' fun: 0.3352519683530217
+     jac: array([ 0.01906892, -0.03857197, -0.04748751])
+ message: 'Optimization terminated successfully'
+    nfev: 325
+     nit: 51
+    njev: 47
+  status: 0
+ success: True
+       x: array([119.13434124,  28.71442411,  23.28176434])'''
+'''fun: 0.3557552364631095
+     jac: array([-0.01184567, -0.01358363, -0.06072117])
+ message: 'Optimization terminated successfully'
+    nfev: 23
+     nit: 5
+    njev: 5
+  status: 0
+ success: True
+       x: array([116.90734614,  30.40092412,  21.98396722])'''
+'''     fun: 0.3390174700282805
+     jac: array([ 0.01960334, -0.03900527, -0.0470016 ])
+ message: 'Optimization terminated successfully'
+    nfev: 45
+     nit: 8
+    njev: 8
+  status: 0
+ success: True
+       x: array([119.18992313,  28.65407313,  23.27436306])'''
+'''fun: 0.3316728654663564
+     jac: array([ 0.01771624, -0.03757547, -0.0486611 ])
+ message: 'Optimization terminated successfully'
+    nfev: 76
+     nit: 10
+    njev: 10
+  status: 0
+ success: True
+       x: array([119.02418529,  28.81042045,  23.23802612])'''

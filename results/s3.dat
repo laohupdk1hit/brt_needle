@@ -1,0 +1,43 @@
+****************************************ITS0*******************************************
+     fun: 5.7076778419177
+     jac: array([0.06566554, 0.08010972, 0.17564142])
+ message: 'Optimization terminated successfully'
+    nfev: 80
+     nit: 20
+    njev: 20
+  status: 0
+ success: True
+       x: array([119.61501553, -48.89071837,  46.1332019 ])
+85.45242691040039 s
+     fun: 5.758068455410398
+     jac: array([0.07698745, 0.1068902 , 0.15123075])
+ message: 'Optimization terminated successfully'
+    nfev: 28
+     nit: 7
+    njev: 7
+  status: 0
+ success: True
+       x: array([120.5059876 , -47.06279394,  44.99990373])
+31.69143533706665 s
+
+     fun: 5.7517191702935575
+     jac: array([0.05450368, 0.06024683, 0.18857515])
+ message: 'Optimization terminated successfully'
+    nfev: 53
+     nit: 13
+    njev: 13
+  status: 0
+ success: True
+       x: array([119.04009972, -50.01169934,  46.99621235])
+57.306394815444946 s
+     fun: 5.854550269458808
+     jac: array([0.04226184, 0.04193878, 0.19700432])
+ message: 'Optimization terminated successfully'
+    nfev: 46
+     nit: 11
+    njev: 11
+  status: 0
+ success: True
+       x: array([118.50725065, -51.01162818,  47.92640165])
+49.79680681228638 s
+***************************************ITS1*******************************************

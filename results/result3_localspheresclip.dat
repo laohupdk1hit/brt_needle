@@ -1,0 +1,302 @@
+##########################################################
+针道0：
+fun: 0.08727622592268619
+     jac: array([-0.00256834,  0.00071549, -0.00555999])
+ message: 'Optimization terminated successfully'
+    nfev: 10
+     nit: 2
+    njev: 2
+  status: 0
+ success: True
+       x: array([117.90537203,  31.1484574 ,  26.68713403])
+
+scope = 5，n = 3
+>>> print(cons2(x,Needleend,cts[1]))
+0.3465756800722902
+>>> print(cts[1])
+[97.29821637  5.60194021 37.77188576]
+>>> print(chuizu(cts[1],Needleend,x))
+(array([94.70978434,  7.00789719, 34.32941587]), 4.530705719099056)
+>>> print(cts)
+[array([95.5597324 , 10.09697078, 34.8324158 ]), array([97.29821637,  5.60194021, 37.77188576]), array([99.03670034,  1.10690963, 40.71135572])]
+>>> print(itsp_ini)
+(94.51429748535156, 6.801211357116699, 34.354854583740234)
+>>> print(np.linalg.norm(cts[1]-np.array(itsp_ini)))
+4.567773821859406
+>>> print(cons2(x,Needleend,cts[0]))
+-2.295009769685204
+>>> print(cons2(x,Needleend,cts[2]))
+
+5.160600641925031
+fun: 0.3705022282633734
+     jac: array([-0.00640683, -0.01898569, -0.06042904])
+ message: 'Optimization terminated successfully'
+    nfev: 118
+     nit: 22
+    njev: 15
+  status: 0
+ success: True
+       x: array([117.30025641,  29.94799614,  21.80396436])
+
+fun: 0.3212317787427984
+     jac: array([ 0.01803681, -0.03758623, -0.04837988])
+ message: 'Optimization terminated successfully'
+    nfev: 21
+     nit: 5
+    njev: 5
+  status: 0
+ success: True
+       x: array([118.99937484,  28.89239137,  23.38057985])
+
+ fun: 0.3221651385458821
+     jac: array([ 0.01728385, -0.03708283, -0.04901125])
+ message: 'Optimization terminated successfully'
+    nfev: 20
+     nit: 5
+    njev: 5
+  status: 0
+ success: True
+       x: array([118.95327573,  28.91776094,  23.32524477])
+ fun: 0.4304230808830733
+     jac: array([ 0.0378686 , -0.04971505, -0.01982343])
+ message: 'Optimization terminated successfully'
+    nfev: 48
+     nit: 10
+    njev: 10
+  status: 0
+ success: True
+       x: array([121.28845393,  26.97798645,  24.74689132])
+>>> result = opt.minimize(errofns,args = arguments_of_obj,x0=Needlestart, method = 'SLSQP',  constraints = nlc, bounds =bons )
+E:\Program Files\Slicer 5.2.2\lib\Python\Lib\site-packages\scipy\optimize\_constraints.py:524: OptimizeWarning: Equality and inequality constraints are specified in the same element of the constraint list. For efficient use with this method, equality and inequality constraints should be specified in separate elements of the constraint list. 
+  warn("Equality and inequality constraints are specified in the same "
+>>> print(result)
+     fun: 0.3173282346563695
+     jac: array([ 0.02155924, -0.03986752, -0.04515781])
+ message: 'Optimization terminated successfully'
+    nfev: 24
+     nit: 6
+    njev: 6
+  status: 0
+ success: True
+       x: array([119.21210773,  28.77859713,  23.64815987])
+>>> result = opt.minimize(errofns,args = arguments_of_obj,x0=Needlestart, method = 'SLSQP',  constraints = nlc, bounds =bons )
+E:\Program Files\Slicer 5.2.2\lib\Python\Lib\site-packages\scipy\optimize\_constraints.py:524: OptimizeWarning: Equality and inequality constraints are specified in the same element of the constraint list. For efficient use with this method, equality and inequality constraints should be specified in separate elements of the constraint list. 
+  warn("Equality and inequality constraints are specified in the same "
+>>> 
+>>> print(result)
+     fun: 0.32122578982143324
+     jac: array([ 0.01804194, -0.0375894 , -0.04837556])
+ message: 'Optimization terminated successfully'
+    nfev: 16
+     nit: 4
+    njev: 4
+  status: 0
+ success: True
+       x: array([118.99967556,  28.89222666,  23.38094375])
+
+'trust-constr'
+barrier_parameter: 3.200000000000001e-05
+ barrier_tolerance: 3.200000000000001e-05
+          cg_niter: 171
+      cg_stop_cond: 4
+            constr: [array([8.84341489e-11, 1.36871855e+01, 9.30388666e+01, 1.17805630e-04,
+       1.85306043e+00, 2.70231163e-05, 1.61223231e-01, 2.19421942e+00,
+       4.96957514e+00, 8.00514532e+00]), array([119.0841901 ,  28.84633869,  23.48473742])]
+       constr_nfev: [724, 0]
+       constr_nhev: [0, 0]
+       constr_njev: [0, 0]
+    constr_penalty: 1.0
+  constr_violation: 8.843414889270207e-11
+    execution_time: 307.9081530570984
+               fun: 0.3195968698368275
+              grad: array([ 0.01943204, -0.0385049 , -0.04715791])
+               jac: [array([[ 6.91284856e-01,  6.72523091e-01, -2.64268727e-01],
+       [-1.44266767e-01,  3.10992808e-01,  4.14049852e-01],
+       [-2.58732324e-01,  9.57885935e-01,  1.24547766e-01],
+       [-1.33057893e+02, -1.93198412e+02, -2.37778573e+02],
+       [ 3.92135714e-01, -4.45323538e-01, -1.07515104e-01],
+       [ 2.39551912e-01, -3.87274057e-01, -3.58923000e-01],
+       [-4.70208746e-02, -1.60305347e-01, -5.30951463e-01],
+       [-2.11974672e-01,  2.58151264e-02, -4.88796415e-01],
+       [-2.66189475e-01,  1.07923379e-01, -4.21660850e-01],
+       [-2.81403775e-01,  1.43627254e-01, -3.70598202e-01]]), array([[1., 0., 0.],
+       [0., 1., 0.],
+       [0., 0., 1.]])]
+   lagrangian_grad: array([-8.17803965e-10,  1.05588853e-09,  5.47828453e-10])
+           message: '`gtol` termination condition is satisfied.'
+            method: 'tr_interior_point'
+              nfev: 724
+              nhev: 0
+               nit: 167
+             niter: 167
+              njev: 181
+        optimality: 1.0558885270687366e-09
+            status: 1
+           success: True
+         tr_radius: 1.5308357369531567
+                 v: [array([-9.06223685e-03, -2.33795686e-06, -3.43942430e-07, -5.69694384e-05,
+       -1.72684824e-05, -8.66490548e-02, -1.98466340e-04, -1.45837600e-05,
+       -6.43918632e-06, -3.99743178e-06]), array([ 3.38030423e-07, -6.70628959e-07, -9.52218350e-07])]
+                 x: array([119.0841901 ,  28.84633869,  23.48473742])
+
+##################################################################################33333
+针道1
+ fun: 0.683675629873514
+     jac: array([0.04236474, 0.05510205, 0.11759067])
+ message: 'Optimization terminated successfully'
+    nfev: 25
+     nit: 6
+    njev: 6
+  status: 0
+ success: True
+       x: array([128.74186368,   9.83848922,   9.61310254])
+OptimizeWarning: Equality and inequality constraints are specified in the same element of the constraint list. For efficient use with this method, equality and inequality constraints should be specified in separate elements of the constraint list. 
+  warn("Equality and inequality constraints are specified in the same "
+     fun: 0.6836601609867647
+     jac: array([0.04235892, 0.05511276, 0.11758772])
+ message: 'Optimization terminated successfully'
+    nfev: 21
+     nit: 5
+    njev: 5
+  status: 0
+ success: True
+       x: array([128.74161505,   9.83882824,   9.61290169])
+>>>  
+[VTK] Generic Warning: In D:\D\S\S-0\Modules\Loadable\Markups\MRML\vtkMRMLMarkupsFiducialStorageNode.cxx, line 305
+[VTK] vtkMRMLMarkupsFiducialStorageNode::SetMarkupFromString failed: index beyond control point maximum
+>>> result = opt.minimize(errofns,args = arguments_of_obj,x0=Needlestart[1], method = 'SLSQP',  constraints = nlc, bounds =bons)
+E:\Program Files\Slicer 5.2.2\lib\Python\Lib\site-packages\scipy\optimize\_constraints.py:524: OptimizeWarning: Equality and inequality constraints are specified in the same element of the constraint list. For efficient use with this method, equality and inequality constraints should be specified in separate elements of the constraint list. 
+  warn("Equality and inequality constraints are specified in the same "
+>>> print(result)
+     fun: 0.683675629873514
+     jac: array([0.04236474, 0.05510205, 0.11759067])
+ message: 'Optimization terminated successfully'
+    nfev: 25
+     nit: 6
+    njev: 6
+  status: 0
+ success: True
+       x: array([128.74186368,   9.83848922,   9.61310254])
+
+ fun: 0.799296715264881
+     jac: array([0.0061933 , 0.10102457, 0.09142599])
+ message: 'Optimization terminated successfully'
+    nfev: 37
+     nit: 8
+    njev: 8
+  status: 0
+ success: True
+       x: array([127.51945389,  12.15657349,   9.20978829])
+
+ fun: 0.6824664533828109
+     jac: array([0.04190868, 0.05594445, 0.1173503 ])
+ message: 'Optimization terminated successfully'
+    nfev: 20
+     nit: 5
+    njev: 5
+  status: 0
+ success: True
+       x: array([128.72228582,   9.86510778,   9.59725036])
+
+#####################################################################3333
+针道2
+print(result)
+     fun: 0.7220956371204854
+     jac: array([-0.03428887,  0.05245513,  0.0489987 ])
+ message: 'Optimization terminated successfully'
+    nfev: 88
+     nit: 18
+    njev: 18
+  status: 0
+ success: True
+       x: array([129.64972606,  -5.01131786,  75.08376016])
+ fun: 0.7133863640381147
+     jac: array([-0.03361247,  0.05592259,  0.04551082])
+ message: 'Optimization terminated successfully'
+    nfev: 37
+     nit: 9
+    njev: 9
+  status: 0
+ success: True
+       x: array([129.76093399,  -4.69872684,  74.62107461])
+
+ fun: 0.7102534916968823
+     jac: array([-0.03444219,  0.05038437,  0.05104241])
+ message: 'Optimization terminated successfully'
+    nfev: 20
+     nit: 5
+    njev: 5
+  status: 0
+ success: True
+       x: array([129.68151097,  -5.34528383,  75.21224047])
+
+       fun: 0.7089254135400352
+     jac: array([-0.0350684 ,  0.04395396,  0.05631025])
+ message: 'Optimization terminated successfully'
+    nfev: 52
+     nit: 11
+    njev: 11
+  status: 0
+ success: True
+       x: array([129.6181236 ,  -6.07184058,  75.78501313])
+
+        fun: 1.2799049499698545
+     jac: array([-0.03726022,  0.06250148,  0.02945919])
+ message: 'Optimization terminated successfully'
+    nfev: 74
+     nit: 14
+    njev: 13
+  status: 0
+ success: True
+       x: array([126.94591187,   2.18107877,  76.00312986])
+
+#############################################################################3
+针道3：
+fun: 0.629355806611838
+     jac: array([ 0.03013834, -0.06297549, -0.06424323])
+ message: 'Optimization terminated successfully'
+    nfev: 33
+     nit: 8
+    njev: 8
+  status: 0
+ success: True
+       x: array([129.58596239,  15.26011251,  36.50097022])
+
+fun: 0.5993405463299559
+     jac: array([ 0.01661095, -0.04754536, -0.08033564])
+ message: 'Optimization terminated successfully'
+    nfev: 157
+     nit: 32
+    njev: 32
+  status: 0
+ success: True
+       x: array([128.57653966,  16.46570746,  35.66044423])
+ fun: 0.9298264037965531
+     jac: array([ 0.00407943, -0.03950018, -0.08600481])
+ message: 'Optimization terminated successfully'
+    nfev: 47
+     nit: 11
+    njev: 11
+  status: 0
+ success: True
+       x: array([128.20016082,  15.74809875,  32.04533643])
+
+       fun: 0.6215007152339838
+     jac: array([ 0.02742309, -0.0599587 , -0.06820199])
+ message: 'Optimization terminated successfully'
+    nfev: 24
+     nit: 6
+    njev: 6
+  status: 0
+ success: True
+       x: array([129.36930253,  15.51577581,  36.28801702])
+
+         fun: 0.6738800896497626
+     jac: array([ 0.02916741, -0.06279989, -0.06487612])
+ message: 'Optimization terminated successfully'
+    nfev: 66
+     nit: 12
+    njev: 11
+  status: 0
+ success: True
+       x: array([129.69724919,  14.98601934,  36.12945289])
